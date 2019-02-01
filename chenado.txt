@@ -1,0 +1,43 @@
+print("Калькулятор Тапка")
+
+p = float(input("Введите первое число:"))
+o = input("Действие:")
+y = float(input("Введите второе число:"))
+if o == "+":
+ y = p + y
+if o == "-":
+    y = p - y
+if o == "*":
+    y = p * y
+if o == "%":
+ y = p / y
+print = input(y)
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+passwd=""
+user=""
+attempt=0
+flag=0
+while(attempt!=3):
+    user=input("Логин:")
+    if(user=="tapok"):
+        flag=1
+    passwd=input("Пароль:")
+    if(passwd=="admin"):
+        flag=1
+        break
+    else:
+        attempt=attempt+1
+        if(attempt==1):
+            print("Неверный логин или пароль")
+if(flag==1):
+    print("Вы успешно авторизировались как ",user)
+    
+    -------------------------------------------------------------------------------------------------------------------------------
+    from tkinter import *
+
+root = Tk()
+root.geometry("750x850")
+root.title("Нетъ")
+root.mainloop()
