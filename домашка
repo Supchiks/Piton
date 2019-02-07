@@ -1,0 +1,10 @@
+p = int(input("Введите первое число:"))
+o = int(input("Введите второе число:"))
+y = int(input("Введите третье число:"))
+if p > o > y:
+    print(p)
+elif o > p > y:
+    print(o)
+elif y > o > p:
+    print(y)
+
